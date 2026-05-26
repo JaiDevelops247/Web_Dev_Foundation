@@ -9,6 +9,22 @@ Let us find out what those three things are.
 <!-- 
 IMAGE: A magnifying glass zooming into a browser window. Inside the magnification, instead of a polished website, you see three plain colored layers stacked like sheets of paper, labeled "HTML", "CSS", and "JavaScript" from bottom to top. The overall feel is a reveal moment. Style: flat vector, clean and modern, bright background.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet06.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Why Did We Need the Web in the First Place?
 
@@ -33,6 +49,22 @@ That is exactly why it is called the **World Wide Web.** The "web" refers to thi
 <!-- 
 IMAGE: A visual of glowing dots (representing Websites) scattered across a dark globe. Thin glowing lines connect the dots to each other, creating a web-like pattern that looks like a spiderweb stretched across the world. Some clusters of dots are denser (representing popular sites). Label at top: "The World Wide Web." Style: dark background, neon blue and white, data-visualization aesthetic.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet07.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### So What Is a Website, Really?
 
@@ -55,6 +87,22 @@ These are the three building blocks of every Website on the Web.
 <!-- 
 IMAGE: A Server (visualized as a tall machine in a data center) with three glowing file icons floating out of it toward a Browser window. The three files are color-coded: orange for HTML, blue for CSS, yellow for JavaScript. An arrow flows from the Server to the Browser. Caption: "A Website = Files on a Server." Style: clean isometric illustration, tech aesthetic.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet08.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### The Analogy: A Building Under Construction
 
@@ -75,6 +123,22 @@ Take away the structure and nothing stands. Take away the design and it looks li
 <!-- 
 IMAGE: Three-panel illustration of the same building in three stages. Panel 1: bare concrete skeleton structure labeled "HTML - Structure". Panel 2: the same building now painted, with windows and signage added, labeled "CSS - Style". Panel 3: lights glowing through windows, a lift moving, people interacting with the entrance, labeled "JavaScript - Behaviour". Style: flat vector, warm and approachable colors.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet09.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### A Real Website Example: Wikipedia
 
@@ -91,6 +155,55 @@ Open Wikipedia and look at any article. Here is what you are actually seeing:
 <!-- 
 IMAGE: A side-by-side breakdown of a Wikipedia-style article page. The same page is shown three times. Version 1 is labeled "HTML only" and shows raw unstyled text and links stacked vertically. Version 2 is labeled "HTML plus CSS" and shows the page looking clean, styled, and readable but with no interactivity. Version 3 is labeled "HTML plus CSS plus JavaScript" and shows the full, interactive page with a live search bar and expandable sections. Style: UI mockup illustration, clean and educational.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/htmlOnly.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/htmlPlusCss.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/htmlPlusCssPlusJs.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
+
 
 ### Let's Define Things Now...
 
@@ -115,6 +228,22 @@ This course will teach you to write real HTML, CSS, and JavaScript from scratch.
 <!-- 
 IMAGE: A pyramid diagram. The base layer (widest) is labeled "HTML, CSS, JavaScript - The Foundation." Above it, progressively smaller layers show: "CSS Frameworks (Bootstrap, Tailwind)", then "JavaScript Frameworks (React, Vue, Angular)", then "Backend Frameworks (Django, Spring, Laravel)" at the top. The pyramid is solid and stable-looking. Caption: "Every Web technology builds on the same three foundations." Style: clean infographic, bold colors, flat design.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet10.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Activity: Web Archaeology
 
