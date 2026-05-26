@@ -13,6 +13,22 @@ By the end of this reading, you will be able to tell anyone exactly what the dif
 <!-- 
 IMAGE: A split illustration. On the left side, a tangled globe of glowing cables, satellites, and routers labeled "The Internet". On the right side, a browser window open to a colorful website labeled "The World Wide Web". A small figure stands in the middle looking at both, looking surprised. Style: flat vector, friendly and modern. 
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet01.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 
 
@@ -47,6 +63,22 @@ But at this point, it was mostly just scientists and engineers using it to send 
 <!-- 
 IMAGE: A timeline from 1969 to 1991. Key milestones marked as dots on a horizontal line: 1969 (ARPANET first message), 1983 (TCP/IP becomes standard), 1991 (World Wide Web launches). Each milestone has a small icon. The line has a "rocket launch" feel, showing progression. Style: clean infographic, dark background with neon highlights. 
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet02.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 
 ### Then Came the Web
@@ -64,6 +96,22 @@ The key insight: **The Web was built on top of the Internet.** It did not replac
 <!-- 
 IMAGE: Portrait-style illustration of Tim Berners-Lee at a desk with an old-school computer, the screen showing a basic text webpage. Behind him, a glowing web of connected nodes representing the internet infrastructure. Caption below: "Tim Berners-Lee, CERN, 1989." Style: editorial, semi-realistic illustration. 
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet03.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 This is the easiest way to lock in the difference.
 
@@ -90,6 +138,22 @@ All of these use the internet. None of them are the web.
 <!-- 
 IMAGE: A wide aerial view of a highway system stretching across a landscape. Along the highway, small buildings and storefronts are visible. The highway itself is labeled "The Internet" with small icons representing emails, video calls, file transfers, and app data flowing along it like vehicles. The buildings along the side are labeled "The World Wide Web" and have browser-window-style facades showing websites. Style: isometric flat illustration, vibrant colors. 
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet04.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Let's Define Things Now
 
@@ -121,6 +185,22 @@ The most important row is the last one. The Internet can and did exist without t
 <!-- 
 IMAGE: A Venn diagram with two circles. A large outer circle labeled "Internet" contains a smaller inner circle labeled "World Wide Web". Inside the WWW circle: browser icon, website screenshots, hyperlink icon. In the space between the circles (inside Internet but outside WWW): email icon, WhatsApp icon, video call icon, game controller icon, FTP transfer icon. Style: clean, minimal, light background with bold labels. 
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/internet05.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 
 
