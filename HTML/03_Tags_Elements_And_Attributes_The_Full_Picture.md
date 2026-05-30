@@ -69,6 +69,21 @@ The Tag is just the bracket notation. The Element is the full, complete structur
 <!-- 
 IMAGE: A clean annotated code line showing: <h1>Welcome to My Website</h1>. Four color-coded labels with arrows: the "<h1>" is labeled "Opening Tag", the text "Welcome to My Website" is labeled "Content", the "</h1>" is labeled "Closing Tag", and a bracket underneath the entire line is labeled "Element." Style: dark background, monospace font, bright color-coded annotations, clean and educational.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image01.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 > **A note on common usage:** In everyday conversation, developers often say "h1 tag" when they technically mean "h1 element." Both are widely understood, so do not stress about it. But knowing the precise difference helps you read documentation and explanations much more clearly.
 
@@ -113,6 +128,21 @@ In this example, `src`, `alt`, `width`, and `height` are all Attributes of the `
 <!-- 
 IMAGE: An annotated code line showing: <img src="avatar.jpg" alt="Bot avatar" width="100">. Labels with color-coded arrows pointing to each part: the word "img" labeled "Tag Name", "src" labeled "Attribute Name", "avatar.jpg" labeled "Attribute Value", and "alt" labeled "Another Attribute." A bracket underneath shows the full opening tag labeled "Opening Tag with Attributes." Style: dark background, monospace code, clean multi-color annotation.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image02.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 #### Boolean Attributes
 
@@ -152,6 +182,21 @@ All of these are Void Elements. Each one is complete as a single tag.
 <!-- 
 IMAGE: A side-by-side comparison of two types of elements. Left side labeled "Regular Element" shows a box with an opening tag at the top, content in the middle, and a closing tag at the bottom, like a container. Right side labeled "Void Element" shows just a single tag, no container, no closing tag. Examples listed below each: h1, p, div for regular. img, br, input, hr for void. Style: clean diagram with box illustrations, flat vector, educational.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image03.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Block and Inline Elements
 
