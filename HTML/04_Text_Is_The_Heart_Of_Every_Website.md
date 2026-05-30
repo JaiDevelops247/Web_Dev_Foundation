@@ -13,6 +13,21 @@ This article covers every major text element HTML provides: the headings that gi
 <!-- 
 IMAGE: A screenshot-style illustration of a Wikipedia article page, but with the CSS and styling stripped away. All that remains is plain, unstyled text in a browser window: a large title at the top, section headings, paragraphs, bold words, and superscript footnote numbers. A label overlaid on the image reads: "Strip away the design. What remains is text." Style: flat editorial illustration, muted greyscale for the stripped page content, clean and educational.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image04.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Headings: Giving a Page Its Hierarchy
 
@@ -48,6 +63,21 @@ This is exactly how Wikipedia structures its articles. The article title is `<h1
 <!-- 
 IMAGE: A visual representation of a webpage structure showing heading levels as a tree. h1 at the top in the largest font, two h2 blocks below it, each with two h3 blocks beneath them, and one h4 beneath one of the h3s. Each level is progressively smaller and indented. Lines connect parent to child headings. Caption: "Heading levels create a navigable hierarchy." Style: clean tree diagram, flat vector, each heading level in a different shade of the same color.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image05.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 #### The Rules That Matter
 
@@ -138,6 +168,21 @@ Both are inline elements. They sit within the surrounding text without breaking 
 <!-- 
 IMAGE: A single rendered paragraph showing both sub and sup in context. The text reads: "H2O is formed when hydrogen combines with oxygen. The formula E=mc2 explains mass-energy equivalence." The "2" in H2O is visually subscript (below the baseline) and the "2" in mc2 is visually superscript (above the baseline). Labels point to each one. Style: clean browser-render style illustration, clear baseline shown as a horizontal guide line, flat and educational.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image07.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Text Formatting Tags
 
@@ -221,6 +266,21 @@ These are commonly used in version history, changelogs, and document editing too
 <!-- 
 IMAGE: A clean visual reference card showing all text formatting tags. Each row shows the tag name on the left, a rendered example in the middle, and whether it is "Semantic" or "Visual" on the right. Rows: strong (bold, Semantic), em (italic, Semantic), b (bold, Visual), i (italic, Visual), mark (yellow highlight, Visual), del (strikethrough, Semantic), ins (underline, Semantic), small (small text, Visual). Style: clean table card, white background, two-column color coding for Semantic vs Visual.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image08.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 #### A Note on Screen Readers and CSS
 
