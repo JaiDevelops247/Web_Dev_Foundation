@@ -48,6 +48,21 @@ In older HTML, the `<ul>` element had a `type` attribute that changed the bullet
 <!-- 
 IMAGE: A clean browser-render illustration of an unordered list. Four list items with filled bullet points: "Natural language understanding", "Multi-language support", "Context memory across messages", "Real-time response streaming". Below it, an arrow pointing to a navigation bar mockup showing the same items styled as a horizontal menu. Caption: "The same ul, two very different appearances. CSS does the rest." Style: flat vector, side-by-side illustration, clean educational layout.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image09.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Ordered Lists: When Sequence Is the Point
 
@@ -119,6 +134,21 @@ This renders as A, B, C, D. Use `type` only when the alternative format carries 
 <!-- 
 IMAGE: A side-by-side comparison of three ordered lists, each with the same four items but using different type values. Left list: type="1" showing 1, 2, 3, 4. Middle list: type="A" showing A, B, C, D. Right list: type="I" showing I, II, III, IV. Labels above each list show the attribute value. Style: clean browser-render illustration, flat vector, neutral background.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image10.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Nested Lists: Lists Within Lists
 
@@ -177,6 +207,21 @@ The Browser indents nested lists automatically and typically uses a different bu
 <!-- 
 IMAGE: A rendered nested unordered list illustration showing the hierarchical structure. Top level has three items: "Frontend Development", "Backend Development", "Version Control". Each is expanded with a nested sub-list: Frontend shows HTML, CSS, JavaScript. Backend shows Node.js, Databases. Version Control shows Git, GitHub. The indentation levels are clearly visible. Style: browser-render style flat illustration, clean hierarchy with distinct bullet styles for each level.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image11.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Description Lists: The Underused but Essential Third Type
 
@@ -243,6 +288,21 @@ Multiple `<dt>` elements can also share a single `<dd>`, useful for synonyms or 
 <!-- 
 IMAGE: A rendered description list illustration showing the chatbot glossary example. Each dt appears on its own line in slightly bold text (API Key, Token, Prompt, Context Window). Each dd appears beneath its dt, indented, in regular weight text. The visual pairing between term and description is clearly shown. Below it, a real-world comparison illustration of a product spec sheet (Processor: A17 Bionic, Screen: 6.1 inches) showing the same visual pattern. Style: clean browser-render illustration, flat vector, two-column real-world comparison at the bottom.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/image13.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
 
 ### Let's Define Things Now...
 
