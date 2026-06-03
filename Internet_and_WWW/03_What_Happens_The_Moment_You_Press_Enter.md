@@ -13,6 +13,22 @@ The next article will pick up from there and cover the technical machinery that 
 <!-- 
 IMAGE: A wide horizontal illustration showing a journey broken into two halves. The left half shows a person at a laptop, a browser window, and arrows flowing outward from the device. The right half (greyed out, labeled "Coming Next") shows routers, a DNS server, and a web server. A dotted line divides the two halves. Caption: "The journey of a single web request." Style: flat vector, clean educational infographic style.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex01.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 
 It is a Sunday afternoon. Arjun is at his desk with his laptop, craving something different for dinner. He opens Chrome, types **www.bbc.co.uk/food/recipes/spaghetti** into the address bar at the top, and presses Enter.
@@ -28,6 +44,22 @@ Let us walk through it, step by step, starting from Arjun's side of the story.
 <!-- 
 IMAGE: Arjun sitting at a desk with a laptop open to a browser. The address bar shows "www.bbc.co.uk/food/recipes/spaghetti". A single glowing arrow flows from his laptop outward into a network of connected nodes, visualizing the request leaving the device. The background is a cosy room. Style: flat vector, warm tones, friendly and relatable.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex02.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Before We Begin: Establishing the Cast
 
@@ -58,6 +90,22 @@ The **Response** is what the Server sends back after receiving the Request. It c
 <!-- 
 IMAGE: A four-character illustration in a row, like a cast lineup. Character 1: a person icon labeled "User (Arjun)". Character 2: a browser window icon labeled "Client (Chrome)". Character 3: a server tower icon labeled "Server (BBC's Computer)". Character 4: two arrows facing opposite directions, one labeled "Request" (going right) and one labeled "Response" (going left). Style: flat vector, clean and minimal, educational tone.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex03.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Let's Explore the First Part of the Journey
 
@@ -82,6 +130,22 @@ Again, the detailed breakdown of what each part means comes in the next article.
 <!-- 
 IMAGE: A URL string "www.bbc.co.uk/food/recipes/spaghetti" displayed prominently. Colored brackets highlight different segments of the URL, each with a label below: "Protocol / Scheme", "Domain", "Path". The Browser window is shown above, like the URL is being examined under a magnifying glass. Style: clean annotated diagram, dark background with color-coded highlights.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex04.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 3: Checking the Cache First
 
@@ -100,6 +164,22 @@ If it does not, the journey continues.
 <!-- 
 IMAGE: Two-path illustration. A browser icon on the left with a fork in the road. The left path is labeled "Cache Hit" and shows a short arrow going directly to the rendered page (fast). The right path is labeled "Cache Miss" and shows a long arrow going out through a network to a server and back (slow). Style: clean flat vector, two-tone color for each path.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex05.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 4: The Browser Asks the Operating System for Help
 
@@ -150,6 +230,22 @@ For a GET Request like Arjun's, there is no Body. He is just asking for somethin
 <!-- 
 IMAGE: A clean visual breakdown of an HTTP Request formatted like a card or letter. Section 1 labeled "Request Line" shows: GET /food/recipes/spaghetti HTTP/1.1. Section 2 labeled "Headers" shows a list of key-value pairs: Host: www.bbc.co.uk, Accept: text/html, Accept-Language: en-US. Section 3 labeled "Body" shows: (empty for GET requests). Each section is a different color. Style: code-card aesthetic, dark background, monospace font, clean and readable.
 -->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/apex07.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 6: The Request Leaves the Device
 
