@@ -10,9 +10,22 @@ We covered all of those steps on a broader level in the last article, building a
 
 This article will not go deep into every detail, because the goal here is to establish a solid foundation for Web Development, not to become a Network Engineer. But you will walk away knowing exactly what a URL is made of, how a Domain Name gets turned into a real address the Internet can use, and how two Computers agree to start talking to each other before a single File is exchanged.
 
-<!-- 
-IMAGE: A split illustration showing the same road from the last article's highway analogy, but this time with labels and measurements overlaid, like a technical blueprint version of the same scene. The friendly highway becomes a detailed engineering diagram. Caption: "Same journey, now under the hood." Style: half illustrated, half blueprint/schematic aesthetic, clean and modern.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj01.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### The URL: More Than Just an Address
 
@@ -28,9 +41,22 @@ https://docs.bbc.co.uk/food/recipes/spaghetti?servings=2#ingredients
 
 It looks like a single string of text, but it is actually made up of five distinct, meaningful parts.
 
-<!-- 
-IMAGE: The full URL "https://docs.bbc.co.uk/food/recipes/spaghetti?servings=2#ingredients" displayed in large text on a dark background. Each segment is highlighted in a different color with a labeled bracket below pointing to its name: "Scheme (https)", "Subdomain (docs)", "Domain (bbc.co.uk)", "Path (/food/recipes/spaghetti)", "Query String (?servings=2)", "Fragment (#ingredients)". Style: clean annotated code-card, monospace font, color-coded brackets.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj02.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### The Scheme
 
@@ -72,21 +98,6 @@ The last part, **#ingredients**, is called the **Fragment.**
 
 A Fragment does not get sent to the Server at all. It is handled entirely by the Browser. It tells the Browser to jump to a specific section on the page after it has loaded. If the recipe page has a section with the ID "ingredients", the Browser will scroll directly to it once the page finishes loading.
 
-### Let's Define Things Now...
-
-> **URL (Uniform Resource Locator):** A complete address that points to a specific resource on the Web. It is made up of a Scheme, Domain, Path, and optionally a Query String and Fragment.
-
-> **Scheme:** The part of a URL that specifies which Protocol to use (HTTP or HTTPS).
-
-> **HTTPS:** A secure version of HTTP where all data between the Browser and Server is encrypted.
-
-> **Domain:** The human-readable name of a Server on the Web (for example, bbc.co.uk).
-
-> **Path:** The specific location of a resource within a Server, written as a series of forward-slash-separated segments.
-
-> **Query String:** Optional key-value pairs added to a URL after a **?**, used to send extra information to the Server.
-
-> **Fragment:** The part of a URL after a **#**, used by the Browser to navigate to a specific section of a page.
 
 ### DNS: The Internet's Phonebook
 
@@ -106,17 +117,23 @@ DNS works the same way. When Arjun's Browser has the domain name **bbc.co.uk** a
 
 This lookup happens every time you visit a new Website, and it typically takes just milliseconds.
 
-<!-- 
-IMAGE: A two-panel illustration. Left panel: a person holding an old-style phonebook open, looking up a name to find a phone number. Right panel: a Browser sending a query labeled "bbc.co.uk?" to a DNS Server, which sends back a response labeled "151.101.64.81". The two panels are visually connected with an equals sign to show they are the same concept. Style: flat vector, clean and educational.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj03.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
-### Let's Define Things Now...
-
-> **IP Address (Internet Protocol Address):** A unique numerical label assigned to every device connected to a Network. It is how Computers find and communicate with each other on the Internet.
-
-> **DNS (Domain Name System):** A distributed system that translates human-readable Domain Names (like bbc.co.uk) into the IP Addresses that Computers use to communicate.
-
-> **DNS Server:** A Computer that stores a directory of Domain Names and their corresponding IP Addresses, and responds to DNS lookup queries.
 
 ### The TCP Handshake: Agreeing to Talk
 
@@ -140,17 +157,23 @@ Only after this three-step exchange is complete does the Browser send the actual
 
 The entire handshake takes a fraction of a millisecond, but it is essential. It ensures that both sides have an open, reliable connection before any real data starts flowing.
 
-<!-- 
-IMAGE: A three-step diagram showing the TCP handshake. On the left is a Browser icon (Arjun's device). On the right is a Server icon (BBC). Step 1: an arrow goes from Browser to Server labeled "SYN - Are you there?". Step 2: an arrow goes from Server to Browser labeled "SYN-ACK - I am here. Are you ready?". Step 3: an arrow goes from Browser to Server labeled "ACK - Ready. Let us begin." The three arrows are stacked vertically in sequence. Style: clean sequential diagram, dark background, color-coded arrows, minimal and clear.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj04.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
-### Let's Define Things Now...
-
-> **TCP (Transmission Control Protocol):** One of the core Protocols of the Internet, responsible for establishing reliable connections between two Computers and ensuring data is delivered completely and in order.
-
-> **TCP Handshake (Three-Way Handshake):** A three-step process (SYN, SYN-ACK, ACK) where a Client and a Server establish a connection before any data is exchanged.
-
-> **SYN, SYN-ACK, ACK:** The three messages exchanged during the TCP Handshake. SYN requests a connection, SYN-ACK acknowledges and confirms readiness, ACK finalises the agreement.
 
 ### Activity: URL Dissector
 
