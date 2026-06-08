@@ -12,9 +12,22 @@ The Browser now has to take that raw text and turn it into the polished, visual,
 
 That transformation is called the **Rendering Pipeline**, and it is what this article is about.
 
-<!-- 
-IMAGE: Two side-by-side panels. Left panel shows a plain text editor with raw HTML code: angle brackets, tags, text. It is labeled "What the Browser Received." Right panel shows a beautiful, styled recipe webpage with images, headings, and an ingredient list. It is labeled "What Arjun Sees." A large arrow between them is labeled "The Rendering Pipeline." Style: clean flat vector, the contrast between raw text and finished page should be stark.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a4.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### What the Browser Actually Receives
 
@@ -42,9 +55,22 @@ Finally, every Browser includes a **JavaScript Engine:** V8 in Chrome and Edge, 
 
 The Browser brings all of this to the table before it has even started processing the HTML.
 
-<!-- 
-IMAGE: A browser window illustrated as a factory or workshop. Inside it, three labelled machines are visible: "Rendering Engine (Blink / Gecko / WebKit)", "Default Stylesheet", and "JavaScript Engine (V8 / SpiderMonkey)". Three input streams flow in from the left: HTML, CSS, and JavaScript files. Caption: "What the Browser already has before it starts." Style: isometric illustration, clean and technical but friendly.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a5.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### The Rendering Pipeline: Step by Step
 
@@ -62,9 +88,22 @@ This tree is called the **DOM, which stands for Document Object Model.** It is t
 
 The DOM is important beyond just rendering. It is also the structure that JavaScript reads and modifies to make pages interactive. When you click a button and something on the page changes without the page reloading, that is JavaScript reaching into the DOM and updating specific Nodes.
 
-<!-- 
-IMAGE: A tree diagram showing a DOM structure. At the top is a node labeled "html". Below it, two children: "head" and "body". Below "body": "header" and "main". Below "header": "h1" with a text node "Spaghetti Recipe". Below "main": three "p" nodes each with short text labels. Nodes are shown as rounded rectangles connected by lines, like a family tree. Style: clean diagram, neutral background, connected nodes, educational layout.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a6.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 2: Parsing CSS, Building the CSSOM
 
@@ -84,9 +123,22 @@ The Render Tree is not identical to the DOM. It only includes elements that are 
 
 Every Node in the Render Tree carries both its structural information (from the DOM) and its computed visual style (from the CSSOM).
 
-<!-- 
-IMAGE: A three-column diagram. Left column: a simplified DOM tree labeled "DOM (Structure)". Middle column: a simplified CSSOM tree labeled "CSSOM (Styles)". Right column: a Render Tree labeled "Render Tree (What gets painted)." Two arrows merge from the left and middle columns into the right column, like two rivers joining into one. A small note near the Render Tree says "Hidden elements excluded." Style: clean three-column diagram, color-coded trees, clear merge arrows.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a7.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 4: Layout
 
@@ -108,9 +160,22 @@ Paint happens in layers. Some elements are painted in their own layer (often ele
 
 The moment the first paint completes is the moment Arjun sees the recipe page on his screen.
 
-<!-- 
-IMAGE: A horizontal pipeline diagram with five stages connected by arrows: "Parse HTML → DOM" then "Parse CSS → CSSOM" then "Merge → Render Tree" then "Layout (positions and sizes)" then "Paint (pixels to screen)." Each stage has a small icon: a document icon, a style palette icon, a merge icon, a ruler icon, and a paintbrush icon. Below the pipeline, a small note: "JavaScript can interrupt and modify any stage." Style: clean horizontal pipeline infographic, each stage color-coded, flat and modern.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a8.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Where JavaScript Fits In
 
@@ -126,11 +191,11 @@ JavaScript is what gives the static skeleton and skin of HTML and CSS their abil
 
 Stop for a moment and look at what the entire pipeline adds up to.
 
-**HTML** is the source of the DOM. The Browser reads HTML and builds a tree of structured content. HTML defines what exists on the page and in what order.
+- **HTML** is the source of the DOM. The Browser reads HTML and builds a tree of structured content. HTML defines what exists on the page and in what order.
 
-**CSS** is the source of the CSSOM. The Browser reads CSS and builds a tree of computed styles. CSS defines what everything looks like.
+- **CSS** is the source of the CSSOM. The Browser reads CSS and builds a tree of computed styles. CSS defines what everything looks like.
 
-**JavaScript** is the code that can read and modify both the DOM and the CSSOM at any time, making the page dynamic and interactive.
+- **JavaScript** is the code that can read and modify both the DOM and the CSSOM at any time, making the page dynamic and interactive.
 
 The rendering pipeline is literally the process of taking these three files and converting them into the visual, interactive experience a User sees and feels.
 
