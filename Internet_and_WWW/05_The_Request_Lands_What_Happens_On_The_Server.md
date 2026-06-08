@@ -14,9 +14,22 @@ This article covers what happens on the Server's side of the story, from the mom
 
 The technical specifics of what the Server sends back, and what that Response actually looks like, will come in the next article.
 
-<!-- 
-IMAGE: A wide illustration continuing the journey from the previous article. The left side (greyed out) shows Arjun's laptop with "Client Side - Done" marked on it. A glowing arrow points right toward a large data center building on the right side. Inside the building, lights are on. Caption: "The Request has arrived. Now what?" Style: flat vector, continuation of the same visual style from article 3, warm to cool color gradient from left to right.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj05.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### The Scenario Continues
 
@@ -46,9 +59,22 @@ Web architecture works the same way.
 
 In smaller Websites, all three of these roles might run on a single Computer. In large-scale systems like BBC or Amazon, each role might be spread across hundreds of Computers. But the roles themselves are always the same.
 
-<!-- 
-IMAGE: A restaurant cross-section illustration. On the left is a dining area with a diner (Arjun) labeled "Client / User". A waiter labeled "Web Server" stands at the entrance, receiving an order slip. In the middle is an open kitchen labeled "Application Server" with chefs working. At the back is a large pantry labeled "Database Server" filled with ingredients. Arrows show the flow: Diner gives order to Waiter, Waiter passes to Kitchen, Kitchen retrieves from Pantry, Kitchen prepares dish, Waiter brings dish back to Diner. Style: warm flat vector illustration, clean and educational.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj06.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Let's Define Things Now...
 
@@ -86,9 +112,22 @@ Dynamic content cannot be served from a static File because it does not exist as
 
 For Arjun's recipe page, the Web Server determines that the content is dynamic. The recipe text and images are stored in a Database and need to be fetched and assembled. So it passes the Request to the Application Server.
 
-<!-- 
-IMAGE: A flowchart. Starting node: "Request Arrives at Web Server". Decision diamond: "Is the content Static or Dynamic?". Left branch (Static): arrow labeled "Yes, it is a File" goes directly to "Send File in Response." Right branch (Dynamic): arrow labeled "No, needs computation" goes to "Pass to Application Server." Style: clean white flowchart on a neutral background, two-color branches, minimal text.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj07.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 3: The Application Server Takes Over
 
@@ -108,9 +147,22 @@ The Database Server searches through its stored data, finds the matching records
 
 Think of it as the chef shouting to the stockroom: "I need spaghetti, tomatoes, garlic, and olive oil." The stockroom person finds exactly those ingredients and passes them through. The chef does not need to know where in the stockroom they were kept. They just need the right ingredients delivered.
 
-<!-- 
-IMAGE: A zoomed-in view of just the Kitchen and Pantry from the earlier restaurant illustration. The chef (Application Server) holds a slip of paper labeled "Query: get spaghetti recipe data." An arrow goes from the chef to the pantry. The pantry person hands back a tray labeled "Recipe Data: title, ingredients, steps, images." Another arrow returns to the chef. Style: same warm flat vector, consistent with the restaurant illustration.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/aj08.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 #### Step 5: The Application Server Builds the Response
 
@@ -146,9 +198,22 @@ When you fill out a login form and click "Sign In," your Browser sends a POST Re
 
 A helpful way to think about it: GET is like reading a menu. POST is like placing an order. Reading the menu does not change anything in the kitchen. Placing an order does.
 
-<!-- 
-IMAGE: Two side-by-side panels. Left panel labeled "GET Request": a diner reading a menu, nothing happening in the kitchen. The label below reads "Asking for something. Nothing changes on the server." Right panel labeled "POST Request": a diner handing an order slip to a waiter, the kitchen starting to work. The label below reads "Sending something. The server acts on the data." Style: flat vector, consistent restaurant illustration style.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a1.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Let's Define Things Now...
 
@@ -162,7 +227,7 @@ IMAGE: Two side-by-side panels. Left panel labeled "GET Request": a diner readin
 
 > **POST:** An HTTP Method that means the Client is sending data to the Server for it to process, store, or act on.
 
-### Activity: Role Play
+### Activity: Role Assigning
 
 For each of the five User actions below, do two things:
 
