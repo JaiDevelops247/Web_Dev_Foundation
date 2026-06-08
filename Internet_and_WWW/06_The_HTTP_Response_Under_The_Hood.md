@@ -34,13 +34,13 @@ After the Status Line come the **Response Headers.** These are key-value pairs t
 
 Some common and important Headers:
 
-**Content-Type** tells the Browser what kind of content is in the Body. For example, `Content-Type: text/html` means the Body contains an HTML Document. `Content-Type: text/css` means it is a CSS File. `Content-Type: image/jpeg` means it is an image. This is how the Browser knows what to do with what it receives.
+- **Content-Type** tells the Browser what kind of content is in the Body. For example, `Content-Type: text/html` means the Body contains an HTML Document. `Content-Type: text/css` means it is a CSS File. `Content-Type: image/jpeg` means it is an image. This is how the Browser knows what to do with what it receives.
 
-**Content-Length** tells the Browser how many bytes of data are in the Body, so it knows when the full Response has been received.
+- **Content-Length** tells the Browser how many bytes of data are in the Body, so it knows when the full Response has been received.
 
-**Cache-Control** gives the Browser instructions on whether and how long to Cache the content locally. A Server can tell the Browser: "You can store this File for 30 days and use it without asking again."
+- **Cache-Control** gives the Browser instructions on whether and how long to Cache the content locally. A Server can tell the Browser: "You can store this File for 30 days and use it without asking again."
 
-**Set-Cookie** allows the Server to send small pieces of data for the Browser to store and send back on future Requests. This is how Websites remember that you are logged in.
+- **Set-Cookie** allows the Server to send small pieces of data for the Browser to store and send back on future Requests. This is how Websites remember that you are logged in.
 
 #### The Response Body
 
@@ -48,9 +48,22 @@ After the Headers comes the **Body,** which is the actual content the Browser wa
 
 For Arjun's recipe page, the Body of the first Response contains the complete HTML Document that the Application Server assembled. It is the skeleton of the entire page, written in HTML. Embedded within that HTML are references to CSS Files and JavaScript Files, which the Browser will go and fetch in separate Requests after reading this first one.
 
-<!-- 
-IMAGE: A clean card layout showing the three sections of an HTTP Response. Section 1 labeled "Status Line" shows: HTTP/1.1 200 OK. Section 2 labeled "Response Headers" shows key-value pairs: Content-Type: text/html, Content-Length: 4823, Cache-Control: max-age=2592000, Set-Cookie: session=abc123. Section 3 labeled "Response Body" shows a snippet of indented HTML code. Each section is a different background color. Style: dark background, monospace font, code-card aesthetic, color-coded sections.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a2.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Status Codes: The Server's One-Line Report Card
 
@@ -58,19 +71,19 @@ Status Codes are one of the most practically useful things to know in Web Develo
 
 Status Codes are grouped into five families based on their first digit.
 
-**1xx: Informational**
+- **1xx: Informational**
 Rarely seen in day-to-day browsing. These tell the Client that the Request was received and processing is continuing.
 
-**2xx: Success**
+- **2xx: Success**
 The Request was received, understood, and fulfilled.
 
-**3xx: Redirection**
+- **3xx: Redirection**
 The Resource has moved. The Client needs to go somewhere else to find it.
 
-**4xx: Client Error**
+- **4xx: Client Error**
 Something was wrong with the Request. The problem is on the Client's side.
 
-**5xx: Server Error**
+- **5xx: Server Error**
 The Request was valid, but the Server failed to fulfil it. The problem is on the Server's side.
 
 The ones worth knowing right now:
@@ -87,9 +100,22 @@ The ones worth knowing right now:
 
 A quick way to remember the families: **2 means great, 3 means go elsewhere, 4 means you made a mistake, 5 means we made a mistake.**
 
-<!-- 
-IMAGE: A visual grid of the major status codes, each displayed as a card. Each card has the number large at the top (200, 301, 404, 500) with a color background: green for 2xx, blue for 3xx, orange for 4xx, red for 5xx. Below the number is the text label and a one-line plain-English explanation. Style: clean card grid layout, bold numbers, flat design, status code families color-coded.
--->
+<div style="display: flex; justify-content: center; padding: 15px 0; width: 100%;">
+  <img 
+    src="https://s3.ap-south-1.amazonaws.com/static.bytexl.app/uploads/44jnaxga5/content/44qdhnb4j/a3.png" 
+    alt="Image Description"
+    style="
+      width: 70%;
+      max-width: 500px; 
+      height: auto; 
+      border: 4px solid #87CEEB; 
+      border-radius: 20px; 
+      padding: 10px; 
+      background-color: white; 
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  >
+</div>
 
 ### Let's Define Things Now...
 
@@ -107,7 +133,7 @@ IMAGE: A visual grid of the major status codes, each displayed as a card. Each c
 
 ### Activity: Request Detective, Part 2
 
-This is the follow-up to the observation exercise from article 3. This time, you know what you are looking for.
+This is the follow-up to the observation exercise from the previous articles. This time, you know what you are looking for.
 
 1. Open any two Websites in Chrome or Firefox.
 2. On each site, open DevTools (right-click, Inspect) and go to the **Network** tab.
